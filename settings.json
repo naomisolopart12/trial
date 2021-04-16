@@ -1,0 +1,87 @@
+{
+  "Account": {
+    "Username": "XXXXXXX",
+    "Password": "XXXXXXX",
+    "Currency": "Doge",
+    "2FA": "OFF",
+    "Auto Proxy": "OFF",
+    "API Access": "OFF"
+  },
+  "Target Profit": "1",
+  "Target Win": "3000",
+  "Lose Target": "0",
+  "Interval": "0",
+  "Betset": [
+    {
+      "Name Bet Set": "00 - @BEDUCODE SETTING",
+      "Base Bet": "0.0001",
+      "Stop Max Bet": "OFF",
+      "Max Bet": "OFF",
+      "Chance": "92",
+      "Random Chance": {
+        "Toggle": "ON",
+        "Min": "92",
+        "Max": "95"
+      },
+      "Bet": {
+        "Bet": "Low",
+        "Hi / Low": {
+          "Toggle": "ON",
+          "If Lose": "1",
+          "If Win": "1"
+        }
+      },
+      "Mode1": {
+        "Toggle": "OFF",
+        "Prebet": "0.00000001",
+        "Start Strike If Win": "1",
+        "Limit Strike If Win": "4",
+        "Start Multi": "1.55",
+        "Limit Multi": "1"
+      },
+      "Mode2": {
+        "Toggle": "OFF",
+        "Prebet": "0.00000001",
+        "Preroll": "40",
+        "Multipler": "1.3"
+      },
+      "Mode3": {
+        "Toggle": "OFF",
+        "Prebet": "0.00000001",
+        "Preroll": "50",
+        "Multipler": "1.11",
+        "Max LS Strike": "60"
+      },
+      "Mode4": {
+        "Toggle": "ON",
+        "Prebet": "0.00001",
+        "Start Strike If Win": "1",
+        "Limit Strike If Win": "25",
+        "Start Multi": "0.01",
+        "Limit Multi": "1.3"
+      },
+      "Fibonacci1": {
+        "Toggle": "OFF",
+        "Prebet": "0.00000001",
+        "Preroll": "40",
+        "Max LS Strike": "80"
+      },
+      "If Win": "1",
+      "If Lose": "2",
+      "Reset If Win": "1",
+      "Reset If Profit": "0.00000001",
+      "Interval": "0"
+    }
+  ],
+  "Proxy Manual": {
+    "Toggle": "OFF",
+    "Ip": "103.152.119.231",
+    "Port": "8080"
+  },
+  "Auto Wd": {
+    "Toggle": "OFF",
+    "If Balance": "0",
+    "Wallet Address": "XXXXXX",
+    "Amount": "0"
+  }
+}
